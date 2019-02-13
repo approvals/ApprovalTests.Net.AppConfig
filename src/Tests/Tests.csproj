@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net461</TargetFrameworks>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
+    <PackageReference Include="Xunit" Version="2.4.1" />
+    <PackageReference Include="MarkdownSnippets" Version="8.7.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ApprovalTests.AppConfig\ApprovalTests.AppConfig.csproj" />
+  </ItemGroup>
+</Project>
